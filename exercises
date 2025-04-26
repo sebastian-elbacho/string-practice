@@ -1,1 +1,71 @@
+function test(){
+    let name = "bill";
+    // let name = 'Rudolph';
 
+    //length
+    console.log( name.length );             //prints what?
+
+    //last index
+    let lastIndex = name.length - 1;
+    console.log(lastIndex);                 //prints what?
+
+
+    //charAt()
+    console.log( name.charAt(2) );          //prints what?
+
+    //indexOf()
+    console.log( name.indexOf('l') );       //prints what?
+
+
+    //concat()
+    let part1 = "Santa";
+    let part2 = "Claus";
+    let greeting = part1.concat(" ", part2);
+    console.log(greeting);
+
+    //concat with '+'
+    greeting = part1 + " " + part2;
+    console.log(greeting);
+
+    //+= operator
+    let food = "";
+    console.log( food );
+
+    food += 'p';                //+=
+    food += 'a';                //+=
+    food += 's';                //+=
+
+    console.log( food ); //complete the word
+
+
+    // substring()  //care: all lowercase letters 's-u-b-s-t-r-i-n-g'
+    let quote = "The quick brown fox jumps over the lazy dog.";
+    let result = quote.substring(10, 19);  			// Extracts "brown fox"
+    console.log(result);
+ 
+
+    //toLowerCase()
+    let text = "WOW";
+    console.log( text.toLowerCase() );
+    console.log( text );
+
+
+
+    
+// ##
+// # TASK: 
+// #   write your own function 'myIndexOf(char, someText)'
+// #		should take:
+// #			-  a 'char' to search for, and 
+// #			-  'someText' which it searches.
+// #	Should return the index of the 'char'
+// #	Write your own looping code. 
+// #		-(i.e. don't just call 'someText.indexOf()' inside)
+
+// #  Particularly of Interest: 
+// #		Any questions that arise: 
+// #				"what happens if...?"
+// #		type questions.
+
+}
+test();
